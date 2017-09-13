@@ -1,9 +1,10 @@
 {
   "name": "@hadesoft/overboard-cli",
-  "version": "0.1.0",
+  "version": "0.1.0-beta",
   "description": "cli for inspecting and managing overboard logs",
   "main": "overboard-cli.js",
   "scripts": {
+    "start": "node overboard-cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/HadeSoft/overboard-cli/issues"
   },
-  "homepage": "https://github.com/HadeSoft/overboard-cli#readme"
+  "homepage": "https://github.com/HadeSoft/overboard-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2"
+  }
 }
