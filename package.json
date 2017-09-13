@@ -1,0 +1,25 @@
+{
+  "name": "@hadesoft/overboard-cli",
+  "version": "0.1.0",
+  "description": "cli for inspecting and managing overboard logs",
+  "main": "overboard-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HadeSoft/overboard-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "overboard",
+    "logs",
+    "inspect"
+  ],
+  "author": "v_m",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HadeSoft/overboard-cli/issues"
+  },
+  "homepage": "https://github.com/HadeSoft/overboard-cli#readme"
+}
