@@ -1,8 +1,12 @@
 {
   "name": "@hadesoft/overboard-cli",
-  "version": "0.1.0-beta",
+  "version": "0.2.0-beta",
   "description": "cli for inspecting and managing overboard logs",
-  "main": "overboard-cli.js",
+  "main": "lib/overboard-cli.js",
+  "bin": {
+    "overboard-cli": "bin/overboard-cli.js"
+  },
+  "preferGlobal": true,
   "scripts": {
     "start": "node overboard-cli.js",
     "test": "echo \"Error: no test specified\" && exit 1"
